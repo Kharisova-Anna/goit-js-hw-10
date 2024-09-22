@@ -16,6 +16,13 @@ input {
     margin-bottom: 32px;
     
 }
+#datetime-picker:hover {
+    border: 1px solid #000;
+}
+
+#datetime-picker:active {
+    border: 1px solid #4e75ff;
+}
 
 button {
     border-radius: 8px;
@@ -28,9 +35,15 @@ button {
     font-size: 16px;
     color: #989898;
 }
-button:hover
-button:active {
+
+button[data-start]:hover {
     background: #6c8cff;
+    color: #fff;
+}
+
+button[data-start]:active {
+    background: #6c8cff;
+    color: #fff;
 }
 
 .timer {
